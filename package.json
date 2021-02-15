@@ -1,12 +1,13 @@
 {
   "name": "ams-configs",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "main": "index.js",
   "author": "MitchelvanBever",
   "license": "MIT",
   "scripts": {
     "commit": "./node_modules/cz-customizable/standalone.js",
-    "postinstall": "sharec"
+    "postinstall": "sharec",
+    "semantic-release": "semantic-release"
   },
   "dependencies": {
     "sharec": "^2.8.0"
@@ -14,6 +15,17 @@
   "devDependencies": {
     "@commitlint/cli": "11.0.0",
     "@commitlint/config-conventional": "11.0.0",
-    "cz-customizable": "git+https://github.com/storyofams/cz-customizable.git#6.3.1"
+    "@semantic-release/changelog": "5.0.1",
+    "cz-customizable": "git+https://github.com/storyofams/cz-customizable.git#6.3.1",
+    "husky": "4.3.8",
+    "semantic-release": "17.3.3"
+  },
+  "publishConfig": {
+    "public": true
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
   }
 }
