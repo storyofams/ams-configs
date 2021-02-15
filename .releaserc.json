@@ -5,7 +5,7 @@
       {
         "preset": "angular",
         "releaseRules": [
-          {
+            {
             "release": "patch",
             "type": "chore"
           },
