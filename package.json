@@ -1,16 +1,25 @@
 {
-  "name": "ams-web-configs",
+  "name": "@storyofams/mrm-preset",
   "version": "0.0.0-development",
-  "main": "index.js",
+  "main": "config.json",
+  "files": [
+    "config.json",
+    "*/index.js"
+  ],
+  "keywords": [
+    "mrm",
+    "mrm-preset",
+    "typescript",
+    "dotfiles"
+  ],
   "author": "MitchelvanBever",
   "license": "MIT",
   "scripts": {
     "commit": "./node_modules/cz-customizable/standalone.js",
-    "postinstall": "sharec",
     "semantic-release": "semantic-release"
   },
   "dependencies": {
-    "sharec": "^2.8.0"
+    "mrm-core": "4.7.0"
   },
   "devDependencies": {
     "@commitlint/cli": "11.0.0",
@@ -21,7 +30,7 @@
     "semantic-release": "17.3.3"
   },
   "publishConfig": {
-    "public": true
+    "access": "public"
   },
   "husky": {
     "hooks": {

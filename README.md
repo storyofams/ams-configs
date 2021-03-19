@@ -13,4 +13,20 @@
 
 A repo containing our ever growing and ever evolving config files shareable between projects.
 
-We're trying out [sharec](https://sharec.js.org/) to see if that fits our needs.
+# Getting started
+Finally a way to manage dot-/config-files and keep them updated fromm a single repo.
+
+## Installation
+
+Add mrm and the preset to your project:
+```
+npm i --save-dev mrm @storyofams/mrm-preset
+```
+
+Add script the following script to your package.json:
+```
+"mrm": "mrm --preset=@storyofams/mrm-preset"
+```
+
+## Add or update files
+`yarn mrm frontend|backend|library`

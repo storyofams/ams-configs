@@ -1,0 +1,13 @@
+{
+  "aliases": {
+    "frontend": [
+      "gitignore"
+    ],
+    "backend": [
+      "gitignore"
+    ],
+    "library": [
+      "gitignore"
+    ]
+  }
+}

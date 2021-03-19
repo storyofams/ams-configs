@@ -1,7 +1,0 @@
-/node_modules/**
-/public/**
-/storybook-static/**
-/dist/**
-/.next/**
-/coverage/**
-/coverage-ts/**
