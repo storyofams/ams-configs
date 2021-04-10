@@ -8,14 +8,14 @@ function task() {
   }
 
   file.add([
-    '// # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.',
+    '# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.',
 
-    '\n// # dependencies',
+    '\n# dependencies',
     '/node_modules',
     '/.pnp',
     '.pnp.js',
 
-    '\n// # next.js',
+    '\n# next.js',
     '/.next/',
     '/out/',
 
