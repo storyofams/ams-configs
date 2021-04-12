@@ -2,14 +2,10 @@
   "name": "@storyofams/mrm-preset",
   "version": "0.0.0-development",
   "main": "config.json",
-  "files": [
-    "config.json",
-    "*/index.js"
-  ],
   "keywords": [
     "mrm",
     "mrm-preset",
-    "typescript",
+    "mrm-tasks",
     "dotfiles"
   ],
   "author": "MitchelvanBever",
@@ -19,7 +15,7 @@
     "semantic-release": "semantic-release"
   },
   "dependencies": {
-    "mrm-core": "4.7.0"
+    "mrm-core": "6.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "11.0.0",

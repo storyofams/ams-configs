@@ -1,13 +1,13 @@
 {
   "aliases": {
     "frontend": [
-      "gitignore"
+      "frontend/gitignore"
     ],
     "backend": [
-      "gitignore"
+      "backend/gitignore"
     ],
     "library": [
-      "gitignore"
+      "package/gitignore"
     ]
   }
 }
