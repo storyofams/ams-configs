@@ -27,7 +27,7 @@
     "@semantic-release/changelog": "5.0.1",
     "cz-customizable": "git+https://github.com/storyofams/cz-customizable.git#6.3.1",
     "husky": "4.3.8",
-    "semantic-release": "17.3.3"
+    "semantic-release": "19.0.3"
   },
   "publishConfig": {
     "access": "public"
