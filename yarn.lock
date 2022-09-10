@@ -3135,10 +3135,10 @@ move-concurrently@^1.0.1:
     rimraf "^2.5.4"
     run-queue "^1.0.3"
 
-mrm-core@4.7.0:
-  version "4.7.0"
-  resolved "https://registry.yarnpkg.com/mrm-core/-/mrm-core-4.7.0.tgz#e6d17354fc4a2b85c8a4e10f393339f5087953a6"
-  integrity sha512-YgFukQ6mz/+T8vc0YRay+Y79rYVct/hgRCG3FFSob4mE+zl2SCH5yRW8XxOUcDQBH8vKF3CBSXBPJsZ5buLlzA==
+mrm-core@6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/mrm-core/-/mrm-core-6.0.0.tgz#50210c3b911d4640f77eb9cff9490927552a0205"
+  integrity sha512-YDPzvzwigy2ke2aiw7kdaSeNy7x9MNVdXR6lyrKAYX9vufs4dOUjdtgkHuwAgAMqPElIMqchgLakpnuvXVh4bw==
   dependencies:
     babel-code-frame "^6.26.0"
     comment-json "^2.2.0"

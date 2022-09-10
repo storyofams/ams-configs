@@ -24,7 +24,10 @@ function task() {
 
     '\n# misc',
     '.DS_Store',
-    '.env*',
+
+    '\n# secrets',
+    '.env',
+    '.env.prod',
 
     '\n# debug',
     'npm-debug.log*',
